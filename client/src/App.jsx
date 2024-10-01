@@ -5,6 +5,7 @@ import LogOut from './pages/LogOut'
 import About from './pages/About'
 import Profile from './pages/Profile'
 import Header from "./components/Header";
+import Register from "./pages/Register";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/login' element={<LogIn/>} />
       <Route path='/logOut' element={<LogOut/>} />
+      <Route path='/register' element={<Register/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/profile' element={<Profile/>} />
 
